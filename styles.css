@@ -7,6 +7,26 @@ a {
     color: yellow;
 }
 
-a:hover {
+#port-nav ul {
+    list-style: none;
+}
+
+#port-nav>ul>li {
+    display: inline;
+}
+
+#port-nav>ul>li>a {
+    padding: 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    background: green;
+    text-decoration: none;
+}
+
+#port-nav>ul>li>a:hover {
     color: #ffffff;
+    background: pink;
+    color: #333;
+    border-radius: 10px;
+    transition: all .2 linear;
 }
