@@ -9,6 +9,7 @@ a {
 
 #port-nav ul {
     list-style: none;
+    text-align: center;
 }
 
 #port-nav>ul>li {
@@ -27,6 +28,6 @@ a {
     color: #ffffff;
     background: pink;
     color: #333;
-    border-radius: 10px;
-    transition: all .2 linear;
+    border-radius: 0px;
+    transition: all .6s linear;
 }
